@@ -11,6 +11,10 @@
 		3BE0579C2CED851B00D3A208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0579B2CED851B00D3A208 /* ContentView.swift */; };
 		3BE0579E2CED851C00D3A208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0579D2CED851C00D3A208 /* Assets.xcassets */; };
 		3BE057A12CED851C00D3A208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE057A02CED851C00D3A208 /* Preview Assets.xcassets */; };
+		3BE057A82CEDC53C00D3A208 /* meow1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BE057A72CEDC53C00D3A208 /* meow1.mp3 */; };
+		3BE057AA2CEDC58400D3A208 /* meow2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BE057A92CEDC58400D3A208 /* meow2.mp3 */; };
+		3BE057AC2CEDC5AD00D3A208 /* meow3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BE057AB2CEDC5AC00D3A208 /* meow3.mp3 */; };
+		3BE057AE2CEDCF4500D3A208 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BE057AD2CEDCF4500D3A208 /* bgm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3BE0579B2CED851B00D3A208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BE0579D2CED851C00D3A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BE057A02CED851C00D3A208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BE057A72CEDC53C00D3A208 /* meow1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow1.mp3; sourceTree = "<group>"; };
+		3BE057A92CEDC58400D3A208 /* meow2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow2.mp3; sourceTree = "<group>"; };
+		3BE057AB2CEDC5AC00D3A208 /* meow3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow3.mp3; sourceTree = "<group>"; };
+		3BE057AD2CEDCF4500D3A208 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 				3BE057992CED851B00D3A208 /* ColorLoopApp.swift */,
 				3BE0579B2CED851B00D3A208 /* ContentView.swift */,
 				3BE0579D2CED851C00D3A208 /* Assets.xcassets */,
+				3BE057A72CEDC53C00D3A208 /* meow1.mp3 */,
+				3BE057A92CEDC58400D3A208 /* meow2.mp3 */,
+				3BE057AB2CEDC5AC00D3A208 /* meow3.mp3 */,
+				3BE057AD2CEDCF4500D3A208 /* bgm.mp3 */,
 				3BE0579F2CED851C00D3A208 /* Preview Content */,
 			);
 			path = ColorLoop;
@@ -126,7 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE057A12CED851C00D3A208 /* Preview Assets.xcassets in Resources */,
+				3BE057AE2CEDCF4500D3A208 /* bgm.mp3 in Resources */,
+				3BE057A82CEDC53C00D3A208 /* meow1.mp3 in Resources */,
+				3BE057AC2CEDC5AD00D3A208 /* meow3.mp3 in Resources */,
 				3BE0579E2CED851C00D3A208 /* Assets.xcassets in Resources */,
+				3BE057AA2CEDC58400D3A208 /* meow2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
